@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 241, 245);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    column-gap: 5%;
+}
+
+.header .kompaniya h1 {
+    font-size: 36px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header .pages a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 15px 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.header .pages a:focus {
+    background-color: rgb(34, 169, 223);
+    color: white;
+    transition: 1s;
+}
+
+
+.first_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.first_img img {
+    width: auto;
+    height: 100%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: rgb(101, 188, 218);
+    font-size: 25px;
+    column-gap: 20px;
+}
+.title .first {
+    color: gray;
+}
+.title .second {
+    color: lightblue;
+}
+
+
+.blocks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    margin: 50px 0;
+}
+
+.blocks .block {}
+
+.blocks .block img {
+    background-color: white;
+    padding: 50px;
+}
+
+.blocks .block p {
+    background-color: rgb(0, 170, 255);
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+.houses {
+    margin-top: 30px;
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    column-gap: 30px;
+}
+
+
+.houses .house h4 {
+    margin-top:  20px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.houses .house p {
+    padding: 0 15%;
+    color: gray;
+    line-height: 25px;
+}
+
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    margin-top: 30px;
+}
+
+.section .rightSide {
+    /* padding: 80px; */
+    width: 40%;
+    color: gray;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: gray;
+    font-size: 12px;
+}
+
+footer a img{
+    width: 40px;
+    height: 100%;
+}

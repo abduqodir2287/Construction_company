@@ -1,0 +1,117 @@
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+    <title>Главная</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="kompaniya">
+            <h1>КОМПАНИЯ АЯКС</h1>
+        </div>
+        <div class="pages">
+            <a href="#">Главная</a>
+            <a href="#">О нас</a>
+            <a href="#">Наши услуги</a>
+            <a href="#">Наши работы</a>
+            <a href="#">Контакты</a>
+        </div>
+    </header>
+    <div class="first_img">
+        <img src="{% static 'img/File_5.jpg' %}">
+    </div>
+    <div class="title">
+        <h1 class="first">НАШИ</h1>
+        <h1 class="second">ПРЕИМУЩЕСТВА</h1>
+    </div>
+    <section class="blocks">
+        <div class="block">
+            <img src="{% static 'img/File_11.png' %}">
+            <p>ЛУЧШИЕ ЦЕНЫ!</p>
+        </div>
+        <div class="block">
+            <img src="{% static 'img/File_12.png' %}">
+            <p>ГАРАНТИЯ 10 ЛЕТ!</p>
+        </div>
+        <div class="block">
+            <img src="{% static 'img/File_21.png' %}">
+            <p>ВЫСОКАЯ СКОРОСТЬ</p>
+        </div>
+        <div class="block">
+            <img src="{% static 'img/File_13.png' %}">
+            <p>ПРЕДОПЛАТА 20%</p>
+        </div>
+    </section>
+    <div class="title">
+        <h1 class="first">НАША</h1>
+        <h1 class="second">РАБОТЫ</h1>
+    </div>
+    <section class="houses">
+        <div class="house">
+            <img src="{% static 'img/File_9.jpg' %}">
+            <ul class="text">
+                <h4>Уютный загородный дом 74 м кв.</h4>
+                <p>Уютный маленький загородный дом – подойдет для проживания небольшой семьи. Дом включает в себе
+                    удобную планировку.</p>
+            </ul>
+        </div>
+        <div class="house">
+            <img src="{% static 'img/File_7.jpg' %}">
+            <ul class="text">
+                <h4>Традиционный дом 105 м кв.</h4>
+                <p>Сочетание новаторства и традиций – основной лейтмотив в планировке и внешнем облике этого дома. В
+                    доме есть все необходимое для проживания семьи.</p>
+            </ul>
+        </div>
+        <div class="house">
+            <img src="{% static 'img/File_8.jpg' %}">
+            <ul class="text">
+                <h4>Современный котедж 105 м кв.</h4>
+                <p>Современный коттедж с мансардой рассчитан на комфортное проживание за городом семьи из 5-6 человек,
+                    состоящей из нескольких поколений.</p>
+            </ul>
+        </div>
+    </section>
+    <div class="title">
+        <h1 class="first">НАША</h1>
+        <h1 class="second">КОМПАНИЯ</h1>
+    </div>
+    <section class="section">
+        <div class="leftSide">
+            <img src="{% static 'img/File_22.jpg' %}">
+        </div>
+        <div class="rightSide">
+            <p>Строительная компания работает на рынке России с 1994 года и является одной из ведущих профильных
+                компаний России.<br>
+
+                Строительство жилых комплексов «под ключ», промышленных, офисных и торговых объектов – один из основных
+                видов деятельности компании. В своей деятельности компания ТММ охватывает полный комплекс строительных и
+                отделочных работ, а также дальнейшее обслуживание объектов после сдачи в эксплуатацию, что не могут
+                обеспечить другие строительные компании.<br>
+
+                Компания была среди первопроходцев, когда строительные компании начали строить жилые микрорайоны
+                бизнес-класса с мощной социальной инфраструктурой –супермаркетами, аптеками, детскими площадками, кафе,
+                ресторанами, салонами красоты, фитнес-центрами, торговыми помещениями. Компания начала первой строить
+                недвижимость класса «делюкс» в Москве.</p>
+        </div>
+    </section>
+    <footer>
+        <div><p>All Right Reserved © 2014 «Аякс компани»</p></div>
+        <div>
+            <img src="{% static 'img/File_9.jpg' %}">
+            <a href="#"><img src="{% static 'img/File_27.png' %}"></a>
+            <a href="#"><img src="{% static 'img/File_28.png' %}" alt="Img"></a>
+            <a href="#"><img src="{% static 'img/File_23.png' %}" alt="Img"></a>
+            <a href="#"><img src="{% static 'img/File_24.png' %}" alt="Img"></a>
+            <a href="#"><img src="{% static 'img/File_25.png' %}" alt="Img"></a>
+            <a href="#"><img src="{% static 'img/File_26.png' %}" alt="Img"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
