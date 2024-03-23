@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 241, 245);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    column-gap: 5%;
+}
+
+.header .kompaniya h1 {
+    font-size: 36px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header .pages a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 15px 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.header .pages a:focus {
+    background-color: rgb(34, 169, 223);
+    color: white;
+    transition: 1s;
+}
+
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 70px;
+}
+
+.title .first {
+    color: gray;
+}
+
+.title .second {
+    color: lightblue;
+}
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    column-gap: 80px;
+}
+
+section .first ul {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    margin-bottom: 10px;
+}
+
+section .first ul img {
+    width: 30px;
+    height: 30px;
+}
+
+section .first ul p {
+    color: #696969;
+    font-size: 14px;
+}
+
+
+section .second p {
+    color: #696969;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+
+
+section .third {
+    line-height: 50px;
+}
+section .third input {
+    padding: 15px 0;
+    padding-left: 15px;
+    font-size: 17px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+
+section .third button {
+    background-color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+section .third button:hover {
+    background-color: lightgray;
+    transition: 0.5s;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: gray;
+    font-size: 12px;
+}
+
+footer a img {
+    width: 40px;
+    height: 100%;
+}

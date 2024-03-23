@@ -1,0 +1,74 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'contacts.css' %}">
+    <title>Контакты</title>
+</head>
+<body>
+    <header class="header">
+        <div class="kompaniya">
+            <h1>КОМПАНИЯ АЯКС</h1>
+        </div>
+        <div class="pages">
+            <a href="http://127.0.0.1:8000/">Главная</a>
+            <a href="http://127.0.0.1:8000/about_us/">О нас</a>
+            <a href="http://127.0.0.1:8000/services/">Наши услуги</a>
+            <a href="http://127.0.0.1:8000/our_works/">Наши работы</a>
+            <a href="http://127.0.0.1:8000/contacts/">Контакты</a>
+        </div>
+    </header>
+    <div class="title">
+        <h1 class="first">НАШИ</h1>
+        <h1 class="second">КОНТАКТЫ</h1>
+    </div>
+    <section>
+        <div class="first">
+            <ul>
+                <img src="{% static 'img/contacts/File_57.png' %}" alt="">
+                <p>Телефон: +7 (499) 123-12-12</p>
+            </ul>
+            <ul>
+                <img src="{% static 'img/contacts/File_56.png' %}" alt="">
+                <p>ICQ консультант: 999888777</p>
+            </ul>
+            <ul>
+                <img src="{% static 'img/contacts/File_54.png' %}" alt="">
+                <p>Skype консультант: admin</p>
+            </ul>
+            <ul>
+                <img src="{% static 'img/contacts/File_53.png' %}" alt="">
+                <p>E-mail: admin@mail.ru</p>
+            </ul>
+        </div>
+        <div class="second">
+            <p>Наш офис расположен по адресу:</p>
+            <p>Москва, улица Фадеева, 10</p>
+            <p>Режим работы:</p>
+            <p>пн-пт: 10:00 до 19:00</p>
+            <p>сб-вс: выходные.</p>
+        </div>
+        <form method="POST" class="submit_form">
+            {% csrf_token %}
+            <div class="third">{{ forms.as_p }}
+                <button type="submit">Отправить</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div><p>All Right Reserved © 2014 «Аякс компани»</p></div>
+        <div>
+            <a href="https://ok.ru/"><img src="{% static 'img/contacts/File_27.png' %}"></a>
+            <a href="https://www.viber.com/ru/"><img src="{% static 'img/contacts/File_28.png' %}" alt="Img"></a>
+            <a href="https://twitter.com/"><img src="{% static 'img/contacts/File_23.png' %}" alt="Img"></a>
+            <a href="https://www.instagram.com/"><img src="{% static 'img/contacts/File_24.png' %}" alt="Img"></a>
+            <a href="https://www.facebook.com/"><img src="{% static 'img/contacts/File_25.png' %}" alt="Img"></a>
+            <a href="https://www.google.com/"><img src="{% static 'img/contacts/File_26.png' %}" alt="Img"></a>
+        </div>
+    </footer>
+</body>
+</html>
+
+
