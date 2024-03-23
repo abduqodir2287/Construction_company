@@ -125,4 +125,7 @@ todo.py
 
 productionfiles/admin
 qurilish_app/static
+qurilish_app/templates/hello.html
+productionfiles/myfirst.css
+
 
